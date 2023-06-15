@@ -28,4 +28,4 @@ Here is the results: https://github.com/jrzhang33/Adacket/blob/main/results/resu
 
 ## Appendix
 
-More detailed supplementary material is shown at 
+More detailed supplementary material is shown at https://github.com/jrzhang33/Adacket/blob/main/Adacket_Appendix.pdf
