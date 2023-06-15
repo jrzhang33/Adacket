@@ -22,7 +22,7 @@ We run all experienments  on one GeForce RTX 3090 Ti GPU , running 64-bit Linux 
 
 We have shown the results of Adacket in terms of accuracy, parameter numbers, and memory usage, and compared them with Rocket, InceptionTime, TapNet, and ResNet. The results show that Adacket achieves the best ranking in terms of accuracy, parameter consumption, and memory usage, which means that Adacket consumes fewer parameters and memory while achieving higher accuracy.
 
-Here is the results[].
+Here is the results: https://github.com/jrzhang33/Adacket/blob/main/results/result_acc_params_memory_30UEA.xlsx.
 
 
 
