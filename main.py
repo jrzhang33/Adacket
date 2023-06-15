@@ -130,7 +130,7 @@ if __name__ == "__main__":
         agent = DDPG(nb_states, nb_actions, args,env.channels)
         info = train(args.train_episode, agent, env, args.output)
         train_acc,val_acc, search_acc = env_test_model(env, args)
-        print('Dataset:{} Train_acc: {:.4f}, Val_acc: {:.4f}, Parameters (M): {:.4f}, Memory (M): {:.4f}'.format(args.dataset, train_acc,val_acc, info['best_size']* 1e-6, info['feature']*1e-6)
+        print('Dataset:{} Train_acc: {:.4f}, Test_acc: {:.4f}, Parameters (M): {:.4f}, Memory (M): {:.4f}'.format(args.dataset, train_acc,val_acc, info['best_size']* 1e-6, info['feature']*1e-6)
                                                                         )
     elif args.job == 'test':
         env_test(env, args)
