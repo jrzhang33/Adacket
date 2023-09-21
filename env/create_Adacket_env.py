@@ -14,7 +14,7 @@ import random
 from sklearn.linear_model import RidgeClassifierCV
 import pickle
 from base.rocket import _PPV
-
+Conv1d_Adacket = nn.Conv1d
 def same_padding1d(seq_len, ks, stride=1, dilation=1):
     p = (seq_len - 1) * stride + (ks - 1) * dilation + 1 - seq_len
     return p // 2, p - p // 2
@@ -424,5 +424,6 @@ class KernelSearch:
             return 0,0,0
         else:
             train_acc,val_acc, search_acc = self.val_test(self.kernel_set, self.train_loader, self.channels_id, self.channels_out)
-            return train_acc,val_acc, search_acc    
+            return train_acc,val_acc, search_acc  
+
 
