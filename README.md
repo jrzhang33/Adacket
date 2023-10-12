@@ -4,7 +4,7 @@
 
 ## Description
 
-This repo contains the PyTorch implementation for paper: Adacket: ADAptive Convolutional KErnel Transform for Multivariate Time Series Classification (Accepted at ECML-PKDD 2023)
+This repo contains the PyTorch implementation for paper: [Adacket: ADAptive Convolutional KErnel Transform for Multivariate Time Series Classification] (https://link.springer.com/chapter/10.1007/978-3-031-43424-2_12) (Accepted at ECML-PKDD 2023) 
 
 
 
@@ -29,3 +29,6 @@ Here is the results: https://github.com/jrzhang33/Adacket/blob/main/results/resu
 ## Appendix
 
 More detailed supplementary material is shown at https://github.com/jrzhang33/Adacket/blob/main/Adacket_Appendix.pdf
+
+## Contact
+[junruzhang@zju.edu.cn](mailto:junruzhang@zju.edu.cn)
